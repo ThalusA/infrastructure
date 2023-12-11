@@ -1,0 +1,7 @@
+tls:
+  certificates:
+    - certFile: "/etc/traefik/certificates/domain.cert"
+      keyFile: "/etc/traefik/certificates/domain.key"
+  options:
+    default:
+      sniStrict: true
